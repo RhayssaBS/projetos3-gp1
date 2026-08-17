@@ -3,7 +3,7 @@
 A EnergiAI é uma solução tecnológica desenvolvida para automatizar e padronizar o cálculo de demanda elétrica em projetos de edificações com múltiplas unidades consumidoras, como condomínios residenciais, empreendimentos comerciais e instalações de uso misto.
 
 ## Tecnologias Usadas
-As tecnologias usadas serão : Java, Spring Boot, React.
+As tecnologias usadas serão: Java, Spring Boot, React.
 
 ## Entregas
 ### Entrega 1
