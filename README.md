@@ -713,31 +713,6 @@ Classificação das histórias por **impacto** (quanto a funcionalidade contribu
 4. **Perfil "gestor" (US19):** o painel pressupõe um perfil de gestão da Neoenergia distinto do analista. Confirmar se esse papel existirá ou se o acesso será do próprio analista/administrador.
 5. **Notação da fórmula:** o Anexo I usa `D_af` para a parcela dos apartamentos; versões anteriores do documento usavam `D_ap`. Padronizamos como `D_af`, seguindo o documento.
 
-## Mapeamento de numeração
-
-| US antiga | US nova | Nome da história |
-|---|---|---|
-| US01 | — (excluída) | Cadastro e login do projetista |
-| US02 | US01 | Home com lista, ordenação e filtro de projetos |
-| US03 | US02 | Criar novo projeto |
-| US04 | US03 | Wizard — preenchimento guiado por etapas |
-| US05 | US04 | Validação dos dados ao avançar de etapa |
-| US06 | US05 | Cálculo automático da demanda |
-| US07 | US06 | Geração do memorial técnico |
-| US08 | US07 | Envio para análise, status e reenvio |
-| US09 | US08 | Fila do analista da Neoenergia com filtros |
-| US10 | US09 | Chatbot Lumi — dúvidas sobre a norma |
-| US11 | US10 | Atendimento humano (escalonamento do chatbot) |
-| US12 | US11 | Anexos do projeto |
-| US13 | US12 | Importação do quadro de unidades por planilha |
-| US14 | US13 | Duplicar projeto existente |
-| US15 | US14 | Histórico de versões e trilha de auditoria |
-| US16 | US15 | Norma versionada e rastreabilidade do cálculo |
-| US17 | US16 | Simulador de expansão futura |
-| US18 | US17 | Consulta de capacidade da rede na região |
-| US19 | US18 | Compartilhamento do projeto |
-| US20 | US19 | Painel de indicadores da Neoenergia |
-
 
 Matriz de Prioridades das Histórias de Usuários
 <img width="1600" height="1134" alt="WhatsApp Image 2026-08-25 at 19 41 35" src="https://github.com/user-attachments/assets/e30e2db5-4259-4b55-9b07-0ed475254d20" />
