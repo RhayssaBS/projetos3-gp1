@@ -23,8 +23,6 @@ As tecnologias usadas serão: Java, Spring Boot, React.
 
 ## Histórias de Usuário
 
-# Histórias de Usuário — Wizard de Cálculo de Demanda (Neoenergia Pernambuco)
-
 > **Contexto.** A Neoenergia Pernambuco reprova cerca de metade dos projetos de entrada de serviço na primeira análise, principalmente por aplicação de fatores da NBR 5410 no lugar das regras da norma da distribuidora (DIS-NOR-053). O Wizard guia o projetista no preenchimento, valida os dados, calcula a demanda da edificação conforme a norma vigente e gera o memorial técnico, que é enviado para análise da Neoenergia na própria plataforma.
 >
 > **Base documental.** A fórmula do memorial técnico (Anexo I da DIS-NOR-053) apresenta a demanda total como `D_ed = D_af + D_s + D_c + D_ve` (apartamentos residenciais pelo método da área útil, serviço do condomínio e cargas comerciais pelo método da carga instalada, e carregadores de veículos elétricos). Tabelas, fatores e limites numéricos da norma ainda não estão confirmados; tudo o que depender deles está marcado como **A validar com a Neoenergia/documentação** e consolidado na seção final.
