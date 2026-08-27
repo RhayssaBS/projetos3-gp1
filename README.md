@@ -713,6 +713,6 @@ Classificação das histórias por **impacto** (quanto a funcionalidade contribu
 
 
 Matriz de Prioridades das Histórias de Usuários
-<img width="1600" height="1134" alt="WhatsApp Image 2026-08-25 at 19 41 35" src="https://github.com/user-attachments/assets/e30e2db5-4259-4b55-9b07-0ed475254d20" />
+<img width="2042" height="1439" alt="image" src="https://github.com/user-attachments/assets/f80d4104-5883-452c-98e8-b2f92aa5e540" />
 
 
