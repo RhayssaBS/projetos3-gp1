@@ -2,8 +2,15 @@
 ## Descrição do Projeto
 O NeoGuide é uma solução tecnológica desenvolvida para automatizar e padronizar o cálculo de demanda elétrica em projetos de edificações com múltiplas unidades consumidoras, como condomínios residenciais, empreendimentos comerciais e instalações de uso misto.
 
-## Tecnologias Usadas
-As tecnologias usadas serão: Java, Spring Boot, React.
+## Ferramentas e Tecnologias Usadas
+Front-end: React
+Back-end: Java, Spring Boot
+Versionamento: Git, GitHub
+Design e prototipação: Figma, Figma Make, Canva
+Gestão do projeto: Trello
+APIs e integrações: Trello API
+IA generativa: ChatGPT, Claude, Gemini
+
 
 ## Entregas
 ### Entrega 1
