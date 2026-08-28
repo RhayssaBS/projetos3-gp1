@@ -20,6 +20,7 @@ As tecnologias usadas serão: Java, Spring Boot, React.
 - Rhayssa Barbosa - Front-end
 - Tarcísio Wanderley - Full Stack
 
+### Entrega 2
 
 ## Histórias de Usuário
 
@@ -39,7 +40,7 @@ As tecnologias usadas serão: Java, Spring Boot, React.
 | US06 | Geração do memorial técnico |
 | US07 | Envio para análise, status e reenvio |
 | US08 | Fila do analista da Neoenergia com filtros |
-| US09 | Chatbot Lumi — dúvidas sobre a norma |
+| US09 | Chatbot Neo — dúvidas sobre a norma |
 | US10 | Atendimento humano (escalonamento do chatbot) |
 | US11 | Anexos do projeto |
 | US12 | Importação do quadro de unidades por planilha |
@@ -314,34 +315,34 @@ Como um analista da Neoenergia, eu quero consultar a fila de projetos enviados c
 
 ---
 
-# US09 — Chatbot Lumi: dúvidas sobre a norma
+# US09 — Chatbot Neo: dúvidas sobre a norma
 
-Opções de nome consideradas: **Lumi** (de *lumen*, luz), **Luzia** (nome tradicional do Nordeste, região da concessão) e **Clara** (claridade/iluminação). Escolhemos **Lumi** por ser curto, fácil de lembrar e remeter diretamente à luz, combinando com a identidade visual de uma bolha flutuante sempre presente na tela.
+Opções de nome consideradas: **Neo** (de *lumen*, luz), **Luzia** (nome tradicional do Nordeste, região da concessão) e **Clara** (claridade/iluminação). Escolhemos **Neo** por ser curto, fácil de lembrar e remeter diretamente à luz, combinando com a identidade visual de uma bolha flutuante sempre presente na tela.
 
 ## História de Usuário
 
-Como um projetista, eu quero tirar dúvidas com a assistente virtual Lumi durante o preenchimento, para que eu esclareça pontos da norma sem sair do Wizard nem interpretar o documento sozinho.
+Como um projetista, eu quero tirar dúvidas com a assistente virtual Neo durante o preenchimento, para que eu esclareça pontos da norma sem sair do Wizard nem interpretar o documento sozinho.
 
 ## Detalhes de negócio
 
-* A Lumi aparece como uma bolha flutuante, sempre visível durante a navegação no Wizard; ao clicar, abre a conversa.
+* A Neo aparece como uma bolha flutuante, sempre visível durante a navegação no Wizard; ao clicar, abre a conversa.
 * As respostas são geradas por RAG sobre a base documental disponibilizada (DIS-NOR-053 e materiais de apoio), citando a seção consultada.
-* Quando não encontrar informação confiável na base, a Lumi informa que não sabe responder — sem inventar — e oferece o encaminhamento para o suporte humano (US10).
-* A Lumi apenas orienta; não altera dados do projeto.
+* Quando não encontrar informação confiável na base, a Neo informa que não sabe responder — sem inventar — e oferece o encaminhamento para o suporte humano (US10).
+* A Neo apenas orienta; não altera dados do projeto.
 
 ## Cenários de validação — BDD
 
 ### Cenário 1 — Positivo: responder dúvida coberta pela base
 
 **Dado que** a projetista esteja em uma etapa do Wizard
-**Quando** perguntar à Lumi como a norma trata um item presente na base documental
-**Então** a Lumi responde com base nos documentos
+**Quando** perguntar à Neo como a norma trata um item presente na base documental
+**Então** a Neo responde com base nos documentos
 **E** cita a seção da norma consultada.
 
 ### Cenário 2 — Negativo: pergunta fora da base
 
 **Dado que** a projetista faça uma pergunta cuja resposta não esteja na base documental
-**Quando** a Lumi processar a pergunta
+**Quando** a Neo processar a pergunta
 **Então** ela informa que não possui informação confiável para responder
 **E** oferece o encaminhamento da dúvida para o suporte humano.
 
@@ -351,11 +352,11 @@ Como um projetista, eu quero tirar dúvidas com a assistente virtual Lumi durant
 
 ## História de Usuário
 
-Como um projetista, eu quero encaminhar minha dúvida para um atendente da Neoenergia quando a Lumi não conseguir respondê-la, para que casos não cobertos pela norma não travem meu projeto.
+Como um projetista, eu quero encaminhar minha dúvida para um atendente da Neoenergia quando a Neo não conseguir respondê-la, para que casos não cobertos pela norma não travem meu projeto.
 
 ## Detalhes de negócio
 
-* O encaminhamento é oferecido pela Lumi quando ela não resolve a dúvida (US09); o projetista também pode solicitá-lo diretamente na conversa.
+* O encaminhamento é oferecido pela Neo quando ela não resolve a dúvida (US09); o projetista também pode solicitá-lo diretamente na conversa.
 * O chamado leva automaticamente o contexto: projeto, etapa atual e transcrição da conversa — o projetista não reexplica o caso.
 * O atendimento é assíncrono: o projetista continua trabalhando e é notificado quando houver resposta; a conversa fica registrada no projeto.
 * O atendente orienta, mas não edita os dados do projeto.
@@ -364,7 +365,7 @@ Como um projetista, eu quero encaminhar minha dúvida para um atendente da Neoen
 
 ### Cenário 1 — Positivo: escalonar e receber resposta
 
-**Dado que** a Lumi não tenha conseguido responder a dúvida da projetista
+**Dado que** a Neo não tenha conseguido responder a dúvida da projetista
 **Quando** a projetista confirmar o encaminhamento ao suporte humano
 **Então** um chamado é aberto com o contexto do projeto e da conversa anexado
 **E** a projetista é notificada quando o atendente responder.
@@ -671,7 +672,7 @@ Classificação das histórias por **impacto** (quanto a funcionalidade contribu
 | US06 — Geração do memorial técnico | Entregável final exigido pela Neoenergia; geração de PDF em modelo específico. |
 | US07 — Envio, status e reenvio | Fecha o ciclo com a distribuidora; envolve protocolo, e-mail e versionamento. |
 | US08 — Fila do analista com filtros | Sem ela o processo não se completa do lado da Neoenergia. |
-| US09 — Chatbot Lumi | Alto valor percebido, mas exige base documental, RAG e curadoria. |
+| US09 — Chatbot Neo | Alto valor percebido, mas exige base documental, RAG e curadoria. |
 | US10 — Atendimento humano | Completa a experiência de suporte; exige fila, notificações e definição de SLA. |
 | US15 — Norma versionada e rastreabilidade | Habilitador da US05: deve ser construída **junto** com o cálculo, pois refatorar depois é caro. |
 
@@ -715,4 +716,5 @@ Classificação das histórias por **impacto** (quanto a funcionalidade contribu
 Matriz de Prioridades das Histórias de Usuários
 <img width="2042" height="1439" alt="image" src="https://github.com/user-attachments/assets/f80d4104-5883-452c-98e8-b2f92aa5e540" />
 
+Visualize também no Trello: https://trello.com/b/kX5TZNAj
 
