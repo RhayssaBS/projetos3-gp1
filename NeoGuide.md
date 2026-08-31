@@ -1,3 +1,4 @@
+[README_NeoGuide_entrega01_corrigido.md](https://github.com/user-attachments/files/31665115/README_NeoGuide_entrega01_corrigido.md)
 <div align="center">
 
 # NeoGuide
@@ -10,6 +11,7 @@ Solução tecnológica para automatizar e padronizar o cálculo de demanda elét
 
 [![Histórias de Usuário](https://img.shields.io/badge/HISTÓRIAS_DE_USUÁRIO-00A443?style=for-the-badge)](#histórias-de-usuário)
 [![Tecnologias](https://img.shields.io/badge/TECNOLOGIAS-0DA9FE?style=for-the-badge)](#ferramentas-e-tecnologias-usadas)
+[![Entregas](https://img.shields.io/badge/ENTREGAS-FF9C1A?style=for-the-badge)](#entregas)
 [![Time](https://img.shields.io/badge/TIME-FF9C1A?style=for-the-badge)](#time)
 
 <br>
@@ -42,6 +44,19 @@ O projeto possui protótipos de baixa e alta fidelidade para apoiar a validaçã
 | Alta fidelidade | [Abrir protótipo navegável](https://probe-grow-35678234.figma.site) |
 | Vídeo do protótipo | [Assistir no YouTube](https://youtu.be/7WzRH7oxblE) |
 
+### Demonstração em vídeo
+
+<div align="center">
+
+[![Vídeo do Protótipo NeoGuide](https://img.youtube.com/vi/7WzRH7oxblE/maxresdefault.jpg)](https://youtu.be/7WzRH7oxblE)
+
+<br>
+
+[Assistir ao vídeo do protótipo no YouTube](https://youtu.be/7WzRH7oxblE)
+
+</div>
+
+
 ---
 
 ## Descrição do Projeto
@@ -66,7 +81,37 @@ O **NeoGuide** é uma solução tecnológica desenvolvida para automatizar e pad
 
 ## Entregas
 
-### Entrega 1
+### Entrega 01
+
+Nesta entrega foram definidos os principais requisitos funcionais da solução por meio de histórias de usuário, detalhes de negócio e cenários de validação utilizando BDD. Também foi desenvolvido o protótipo de baixa fidelidade no Figma e produzido um screencast de apresentação do fluxo prototipado.
+
+#### Artefatos da Entrega 01
+
+| Artefato | Acesso |
+| --- | --- |
+| Histórias de Usuário | [Acessar histórias de usuário](#histórias-de-usuário) |
+| Protótipo de Baixa Fidelidade | [Abrir no Figma](https://www.figma.com/design/hutqSipfit7LWTlcD2XMOu/Baixa-Fidelidade?m=auto&t=ZbPLhVzn64DpTAtI-1) |
+| Screencast do Protótipo | [Assistir no YouTube](https://youtu.be/7WzRH7oxblE) |
+
+#### Histórias contempladas no protótipo de baixa fidelidade
+
+O protótipo de baixa fidelidade contempla, no mínimo, as seguintes histórias:
+
+- **US01** — Home com lista, ordenação e filtro de projetos
+- **US02** — Criar novo projeto
+- **US03** — Wizard — preenchimento guiado por etapas
+- **US04** — Validação dos dados ao avançar de etapa
+- **US05** — Cálculo automático da demanda
+
+> As histórias completas, com descrição, detalhes de negócio e cenários BDD, estão disponíveis na seção [Histórias de Usuário](#histórias-de-usuário).
+
+---
+
+### Entrega 02
+
+Os artefatos referentes à Entrega 02 serão organizados nesta seção conforme o avanço do projeto.
+
+---
 
 ## Como Rodar o Projeto
 
@@ -842,7 +887,7 @@ Classificação das histórias por **impacto** (quanto a funcionalidade contribu
 
 <div align="center">
 
-<img width="2000" height="1414" alt="Matriz de Priorização" src="https://github.com/user-attachments/assets/3ad0ee00-444b-41f9-ab0c-a6d5eb13dc65" />
+<img width="2000" height="1414" alt="Matriz de Priorização" src="https://github.com/user-attachments/assets/f65a7f33-2d8e-4b88-8476-3fd969c9a065" />
 
 
 <br><br>
