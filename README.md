@@ -1,4 +1,3 @@
-[README_NeoGuide_entrega01_corrigido.md](https://github.com/user-attachments/files/31665162/README_NeoGuide_entrega01_corrigido.md)
 <div align="center">
 
 # NeoGuide
