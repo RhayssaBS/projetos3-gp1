@@ -23,7 +23,6 @@ Solução tecnológica para automatizar e padronizar o cálculo de demanda elét
 
 [![Baixa Fidelidade](https://img.shields.io/badge/PROTÓTIPO_BAIXA_FIDELIDADE-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/design/hutqSipfit7LWTlcD2XMOu/Baixa-Fidelidade?m=auto&t=ZbPLhVzn64DpTAtI-1)
 
-[![Visualização Figma](https://img.shields.io/badge/VISUALIZAÇÃO_FIGMA-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://embed.figma.com/design/hutqSipfit7LWTlcD2XMOu/Baixa-Fidelidade?embed-host=share)
 
 [![Alta Fidelidade](https://img.shields.io/badge/PROTÓTIPO_ALTA_FIDELIDADE-00A443?style=for-the-badge&logo=figma&logoColor=white)](https://probe-grow-35678234.figma.site)
 
@@ -40,7 +39,6 @@ O projeto possui protótipos de baixa e alta fidelidade para apoiar a validaçã
 | Protótipo | Acesso |
 | --- | --- |
 | Baixa fidelidade | [Abrir no Figma](https://www.figma.com/design/hutqSipfit7LWTlcD2XMOu/Baixa-Fidelidade?m=auto&t=ZbPLhVzn64DpTAtI-1) |
-| Baixa fidelidade — visualização | [Abrir visualização incorporável](https://embed.figma.com/design/hutqSipfit7LWTlcD2XMOu/Baixa-Fidelidade?embed-host=share) |
 | Alta fidelidade | [Abrir protótipo navegável](https://probe-grow-35678234.figma.site) |
 | Vídeo do protótipo | [Assistir no YouTube](https://youtu.be/7WzRH7oxblE) |
 
@@ -56,7 +54,6 @@ O projeto possui protótipos de baixa e alta fidelidade para apoiar a validaçã
 
 </div>
 
-> O GitHub não renderiza `iframe` diretamente no README. Por isso, o código de incorporação do Figma foi convertido em um link de visualização clicável.
 
 ---
 
@@ -851,28 +848,6 @@ Classificação das histórias por **impacto** (quanto a funcionalidade contribu
 </details>
 
 > As histórias em "Não fazer agora" permanecem no backlog: a classificação é sobre a primeira versão do produto, não descarte definitivo.
-
----
-
-## Pontos que ainda precisam ser confirmados com a Neoenergia
-
-1. **Tipos de edificação** atendidos pelo sistema e quais etapas/categorias de carga correspondem a cada tipo (US02, US03).
-2. **Tabelas e fatores da DIS-NOR-053**: demanda por área útil, fatores de simultaneidade, fatores de demanda por grupo de carga, tratamento de carregadores de veículos elétricos, fator de potência mínimo, ar-condicionado em quantidade e diversidade entre blocos (US04, US05).
-3. **Faixas de atendimento** e eventual sugestão de transformador a partir da demanda calculada (US05).
-4. **Documentos obrigatórios** do projeto e se a exigência varia por característica da edificação (US11).
-5. **Tratamento de geração fotovoltaica** no cálculo/simulação de demanda (US16).
-6. **Dados de capacidade da rede**: existência, granularidade e forma de acesso (US17).
-7. **Atendimento humano**: horário de funcionamento e prazo de resposta a serem comunicados ao projetista (US10).
-
----
-
-## Inconsistências ou dúvidas encontradas
-
-1. **Momento de geração do memorial (resolvido nesta revisão):** as versões anteriores tinham geração manual (botão) na antiga US07 e pré-requisito de "memorial gerado" na antiga US08. Adotamos um único fluxo: o memorial é **gerado automaticamente após o cálculo** (US06); o envio (US07) apenas pressupõe projeto Calculado e anexos completos. Se a equipe preferir a geração manual, US06 e US07 precisam ser ajustadas juntas.
-2. **Autenticação sem história própria:** com a exclusão da antiga US01, o login passa a ser pré-condição implícita. A equipe deve decidir onde essa funcionalidade será registrada (backlog técnico, história futura ou escopo de infraestrutura), pois telas de login provavelmente ainda constarão no protótipo.
-3. **Validação bloqueante vs. correção automática:** a antiga US05 aplicava correções normativas automáticas com aviso (ex.: ajuste de fator). Nesta revisão, toda divergência bloqueia o avanço (US04). Quando as regras da norma forem confirmadas, a equipe deve decidir se algum ajuste automático volta ao escopo — isso impactaria também o conteúdo do memorial.
-4. **Perfil "gestor" (US19):** o painel pressupõe um perfil de gestão da Neoenergia distinto do analista. Confirmar se esse papel existirá ou se o acesso será do próprio analista/administrador.
-5. **Notação da fórmula:** o Anexo I usa `D_af` para a parcela dos apartamentos; versões anteriores do documento usavam `D_ap`. Padronizamos como `D_af`, seguindo o documento.
 
 ---
 
