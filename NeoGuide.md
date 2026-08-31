@@ -855,7 +855,8 @@ Classificação das histórias por **impacto** (quanto a funcionalidade contribu
 
 <div align="center">
 
-<img width="900" alt="Matriz de Prioridades das Histórias de Usuários" src="https://github.com/user-attachments/assets/f80d4104-5883-452c-98e8-b2f92aa5e540" />
+<img width="2000" height="1414" alt="Matriz de Priorização" src="https://github.com/user-attachments/assets/3ad0ee00-444b-41f9-ab0c-a6d5eb13dc65" />
+
 
 <br><br>
 
