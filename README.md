@@ -43,19 +43,6 @@ O projeto possui protótipos de baixa e alta fidelidade para apoiar a validaçã
 | Alta fidelidade | [Abrir protótipo navegável](https://probe-grow-35678234.figma.site) |
 | Vídeo do protótipo | [Assistir no YouTube](https://youtu.be/7WzRH7oxblE) |
 
-### Demonstração em vídeo
-
-<div align="center">
-
-[![Vídeo do Protótipo NeoGuide](https://img.youtube.com/vi/7WzRH7oxblE/maxresdefault.jpg)](https://youtu.be/7WzRH7oxblE)
-
-<br>
-
-[Assistir ao vídeo do protótipo no YouTube](https://youtu.be/7WzRH7oxblE)
-
-</div>
-
-
 ---
 
 ## Descrição do Projeto
